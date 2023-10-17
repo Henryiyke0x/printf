@@ -17,7 +17,8 @@ typedef struct print{
 
 }print_t;
 
-
+int _printf(const char *format, ...);
+int _printf_strind(va_list val)
 int _putchar(char c);
 
 int _printf( const char *format, ....);
